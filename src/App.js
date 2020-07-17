@@ -3,6 +3,8 @@ import './App.css';
 
 import FirstPage from './pages/FirstPage';
 import HomePage from './pages/HomePage';
+import Examples from './pages/Examples';
+import DemoPage from './pages/DemoPage';
 
 import {
 	BrowserRouter as Router,
@@ -19,9 +21,16 @@ function App() {
 					<Route path="/firstpage">
 						<FirstPage />
 					</Route>
+					<Route exact path="/examples">
+						<Examples />
+					</Route>
+					<Route exact path="/demopage">
+						<DemoPage />
+					</Route>
 					<Route exact path="/">
 						<HomePage />
 					</Route>
+					
 				</Switch>
 			</div>
 		</Router>

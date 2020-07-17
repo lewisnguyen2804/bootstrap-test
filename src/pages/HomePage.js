@@ -6,7 +6,9 @@ export default class HomePage extends Component {
         return (
             <div>
                 <h1>BOOTSTRAP IN REACT</h1>
-                <Link to="/firstpage">First Page</Link>
+                <Link to="/firstpage">First Page</Link> <br/>
+                <Link to="/examples">Examples</Link> <br/>
+                <Link to="/demopage">Full Demo Page</Link>
             </div>
         )
     }
